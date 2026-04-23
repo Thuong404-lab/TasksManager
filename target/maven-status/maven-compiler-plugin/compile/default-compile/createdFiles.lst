@@ -1,0 +1,15 @@
+com\mycompany\projecttaskmanager\JakartaRestConfiguration.class
+controller\LoginServlet.class
+controller\PrioritesServlet.class
+controller\TasksServlet.class
+dao\PrioritesDAO.class
+filter\AuthFilter.class
+controller\UsersServlet.class
+dao\TasksDAO.class
+model\Users.class
+controller\LogoutServlet.class
+dao\UsersDAO.class
+model\Tasks.class
+com\mycompany\projecttaskmanager\resources\JakartaEE10Resource.class
+model\Priorities.class
+db\DBContext.class
