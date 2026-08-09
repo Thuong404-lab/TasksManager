@@ -1,51 +1,51 @@
 # Task Manager
 
-Ứng dụng web quản lý công việc cá nhân được xây dựng bằng Jakarta EE, Servlet,
-JSP/JSTL và Microsoft SQL Server.
+A simple web application for managing personal and assigned tasks, built with
+Jakarta EE, Servlet, JSP/JSTL, and Microsoft SQL Server.
 
-## Tính năng
+## Features
 
-- Đăng nhập, đăng xuất và ghi nhớ tài khoản.
-- Phân quyền `admin` và `user`.
-- Quản lý công việc, người dùng và mức ưu tiên.
-- Người dùng thường chỉ thao tác trên công việc được giao.
-- Thống kê công việc hoàn thành và sắp đến hạn.
-- Bảo mật mật khẩu bằng BCrypt, CSRF token và kiểm tra dữ liệu đầu vào.
+- Sign in, sign out, and remember account details.
+- Role-based access for administrators and users.
+- Manage tasks, users, and priority levels.
+- Regular users can only manage tasks assigned to them.
+- Track completed tasks and upcoming deadlines.
+- BCrypt password hashing, CSRF protection, and server-side validation.
 
-## Công nghệ
+## Tech Stack
 
 - Java 11
 - Jakarta EE 10
-- Servlet, JSP và JSTL
+- Servlet, JSP, and JSTL
 - JDBC
 - Microsoft SQL Server
 - Bootstrap 5
 - Maven
 - JUnit 5
 
-## Tài khoản demo
+## Demo Accounts
 
 ```yaml
 Admin: admin / admin123
 User:  user  / 123123123
 ```
 
-> Chỉ sử dụng các tài khoản này trong môi trường học tập hoặc chạy local.
+> Use these accounts only for local development and demonstration purposes.
 
-## Cài đặt
+## Getting Started
 
-### 1. Khởi tạo database
+### 1. Create the database
 
-Chạy lần lượt hai file trong SQL Server:
+Run the following SQL scripts in order:
 
 ```text
 database/schema.sql
 database/seed.sql
 ```
 
-### 2. Cấu hình kết nối
+### 2. Configure the database connection
 
-Thiết lập các biến môi trường:
+Set the following environment variables:
 
 ```text
 TASK_DB_URL=jdbc:sqlserver://127.0.0.1:1433;databaseName=TaskManagerDB;encrypt=false
@@ -53,30 +53,30 @@ TASK_DB_USER=sa
 TASK_DB_PASSWORD=your_password
 ```
 
-Nếu không thiết lập, ứng dụng sử dụng cấu hình local mặc định trong
-`DatabaseConnectionProvider`.
+If these variables are not set, the application uses the local defaults defined
+in `DatabaseConnectionProvider`.
 
-### 3. Build và kiểm thử
+### 3. Build and test
 
 ```bash
 mvn clean package
 ```
 
-File WAR được tạo tại:
+The generated WAR file is available at:
 
 ```text
 target/task-manager-1.0.war
 ```
 
-### 4. Chạy ứng dụng
+### 4. Run the application
 
-Deploy file WAR lên Tomcat 10.1, sau đó truy cập:
+Deploy the WAR file to Tomcat 10.1, then open:
 
 ```text
 http://localhost:8080/ProjectTaskManager/login
 ```
 
-## Cấu trúc chính
+## Project Structure
 
 ```text
 src/main/java/com/taskmanager
@@ -95,8 +95,8 @@ src/main/webapp/WEB-INF/views
 └── users
 ```
 
-## Lưu ý
+## Security Notes
 
-- Không commit mật khẩu database hoặc file `.env`.
-- Nên sử dụng HTTPS và tài khoản database có quyền giới hạn khi triển khai thật.
-- Đổi mật khẩu demo trước khi đưa ứng dụng lên môi trường công khai.
+- Never commit database credentials or `.env` files.
+- Use HTTPS and a restricted database account in production.
+- Change all demo passwords before deploying publicly.
