@@ -1,15 +1,16 @@
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\controller\LogoutServlet.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\controller\LoginServlet.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\filter\AuthFilter.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\model\Tasks.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\controller\UsersServlet.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\db\DBContext.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\controller\TasksServlet.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\dao\PrioritesDAO.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\com\mycompany\projecttaskmanager\resources\JakartaEE10Resource.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\model\Priorities.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\controller\PrioritesServlet.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\dao\TasksDAO.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\com\mycompany\projecttaskmanager\JakartaRestConfiguration.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\dao\UsersDAO.java
-C:\Users\LEGION\Documents\NetBeansProjects\ProjectTaskManager\src\main\java\model\Users.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\config\DatabaseConnectionProvider.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\controller\LoginServlet.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\controller\LogoutServlet.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\controller\PriorityServlet.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\controller\TaskServlet.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\controller\UserServlet.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\dao\PriorityDAO.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\dao\TaskDAO.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\dao\UserDAO.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\filter\AuthenticationFilter.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\filter\RequestSecurityFilter.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\model\Priority.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\model\Task.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\model\User.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\util\InputValidator.java
+C:\University\c-Third-year students (2025-2026)\Ki IV\PRJ301\project\ProjectPRJ_TasksManager\src\main\java\com\taskmanager\util\PasswordHasher.java

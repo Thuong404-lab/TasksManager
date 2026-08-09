@@ -1,0 +1,3 @@
+com\taskmanager\util\InputValidatorTest.class
+com\taskmanager\config\DatabaseConnectionProviderTest.class
+com\taskmanager\util\PasswordHasherTest.class
